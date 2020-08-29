@@ -23,6 +23,7 @@ h3 {
 }
 body {
     background-image: url(../images/Background_circle.jpg);
+    background-repeat: no-repeat;
 }
 a {
     text-decoration: none;
