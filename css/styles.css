@@ -17,12 +17,14 @@ h3 {
     font-style: normal;
     font-weight: normal;
     font-size: 20px;
-    color: black;
+    color: white;
     text-align: center;
     text-shadow: 0.5px 0.5px 1px rgba(0, 0, 0, 0.3);   
 }
 body {
-    background-image: url(../images/Background_circle.jpg);
+    background-image: url(../images/Background_circle_purple.jpg);
+    background-size: cover;
+    background-position-y: -1%;
     background-repeat: no-repeat;
 }
 a {
@@ -41,11 +43,11 @@ a {
     line-height: 0;
     border-radius:50%;
     text-align: center;
-    background: #F59A55; 
+    background: #6E42FF; 
 }
 
 .wrapper:hover {
-    background: radial-gradient( ellipse at center, #F59A55 30%,#F59A55 60%,white 70%);
+    background: radial-gradient( ellipse at center, #6E42FF 30%,#6E42FF 60%,white 70%);
 }
 .container {
     margin: 0;
